@@ -38,7 +38,6 @@ body {
 }
 
 .hand {
-  width:50%;
   height:6px;
   background:black;
   position: absolute;
@@ -47,16 +46,18 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: ease-in-out;
+  border-radius: 2px;
 }
 
 .second-hand {
-  background: blue;
+  width:50%;
 }
 
 .min-hand {
-  background: red;
+  width: 50%;
 }
 
 .hour-hand {
-  background: green;
+  width: 35%;
+  margin-left: 15%;
 }
